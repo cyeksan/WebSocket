@@ -13,6 +13,6 @@ enum class Tags constructor(private val text: String) {
     object Constants {
         const val TYPE_TAG = "subscribe"
         const val CHANNEL_NAME_TAG = "ticker"
-        const  val PRODUCT_ID_TAG = "ETH-USD"
+        const  val PRODUCT_ID_TAG = "BTC-USD" // In order to see Ethereum price, PRODUCT_ID_TAG = "ETH-USD"
     }
 }
