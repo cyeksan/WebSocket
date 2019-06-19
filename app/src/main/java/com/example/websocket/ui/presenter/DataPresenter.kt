@@ -1,13 +1,13 @@
-package com.example.websocket.presenter
+package com.example.websocket.ui.presenter
 
 import android.content.Context
 import com.example.websocket.R
 import com.example.websocket.enum.Codes
 import com.example.websocket.enum.Tags
 import com.example.websocket.enum.Urls
-import com.example.websocket.model.Channels
-import com.example.websocket.model.Response
-import com.example.websocket.model.Send
+import com.example.websocket.ui.model.Channels
+import com.example.websocket.ui.model.Response
+import com.example.websocket.ui.model.Send
 import com.google.gson.Gson
 import okhttp3.OkHttpClient
 import okhttp3.Request

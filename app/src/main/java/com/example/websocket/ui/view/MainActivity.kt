@@ -1,12 +1,12 @@
-package com.example.websocket.view
+package com.example.websocket.ui.view
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.websocket.R
-import com.example.websocket.model.Response
-import com.example.websocket.presenter.DataPresenter
-import com.example.websocket.presenter.IDataPresenter
+import com.example.websocket.ui.model.Response
+import com.example.websocket.ui.presenter.DataPresenter
+import com.example.websocket.ui.presenter.IDataPresenter
 import kotlinx.android.synthetic.main.activity_main.*
 
 

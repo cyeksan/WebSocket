@@ -1,6 +1,6 @@
-package com.example.websocket.presenter
+package com.example.websocket.ui.presenter
 
-import com.example.websocket.model.Response
+import com.example.websocket.ui.model.Response
 
 interface IDataPresenter {
 
